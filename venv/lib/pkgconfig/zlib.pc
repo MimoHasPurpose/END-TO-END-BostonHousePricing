@@ -1,0 +1,13 @@
+prefix=/home/mimi-mimo/Desktop/github/END-TO-END-BostonHousePricing/venv
+exec_prefix=/home/mimi-mimo/Desktop/github/END-TO-END-BostonHousePricing/venv
+libdir=/home/mimi-mimo/Desktop/github/END-TO-END-BostonHousePricing/venv/lib
+sharedlibdir=/home/mimi-mimo/Desktop/github/END-TO-END-BostonHousePricing/venv/lib
+includedir=/home/mimi-mimo/Desktop/github/END-TO-END-BostonHousePricing/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
