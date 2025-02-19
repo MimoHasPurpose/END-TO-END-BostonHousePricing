@@ -12,3 +12,16 @@
 
 
 ### Note: try to deploy on heroku.
+
+### Process:
+- Write a pickle file 'regmodel.pkl'
+- Import the pickle file in 'app.py'
+- Get imput data from app.py
+- Show result by `flask run`
+
+
+### app.py code explanation:
+- import libraries.
+- ` app=Flask(__name__)`
+- load regmodel and scalar
+- routes to imput data and output data.
