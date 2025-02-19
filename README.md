@@ -25,3 +25,5 @@
 - ` app=Flask(__name__)`
 - load regmodel and scalar
 - routes to imput data and output data.
+
+
